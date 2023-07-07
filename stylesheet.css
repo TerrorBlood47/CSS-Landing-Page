@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+
+*{
+    font-family: 'roboto', sans-serif;
+    /*font-size: larger;*/
+    padding: 0;
+    margin:0;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+    width:100%;
+    height: auto;
+    max-height: 1100px;
+    
+}
+
+.banner .banner-buttons{
+    position: absolute;
+    top: 2%;
+    right: 8%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    gap: 2em;
+    
+}
+
+.banner .banner-buttons a{
+    flex: 1;
+}
+
+  
+.banner .banner-buttons .unit .banner-text button{
+    background-color: transparent;
+    border-color:transparent;
+    cursor:pointer;
+    
+}
+
+
+.banner .banner-buttons .unit .banner-text p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner .banner-logo{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    font-size: 20px;
+    
+}
+
+.banner .banner-logo h3{
+    font-family: 'Kaushan Script',cursive;
+    background-image: linear-gradient(to right, #ff0000, #0000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.banner.banner-text{
+     color: black;
+     font-weight: 1000;
+     font-size: 12px;
+     padding-left: 4px;
+     padding-right: 4px;
+}
+
+.banner .banner-title{
+    position: absolute;
+    top:25%;
+    left: 55%;  
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    
+}
+
+.banner .banner-title h1{
+    font-family: 'Kaushan Script',cursive;
+    font-size: 60px;
+    flex: 3 1 1;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, #ff0000, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}
+
+.banner .banner-title p{
+    left: 55%;
+    font-size: 15px;
+    font-style: oblique;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 2em;
+    margin-right: 10%;
+    margin-bottom: 3em;
+    flex: 1;
+}
+
+.banner .banner-title section{
+    margin-top: 20px;
+    margin-left: 0px;  
+    align-self: center ;
+     
+}
+
+.banner .signup button{
+    font-family: 'roboto', sans-serif;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 70 70 70 70;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 30px;
+    box-shadow: 0 0 10px #0000001a;
+    cursor:pointer;
+    height: 60px;
+    width: 240px;
+    justify-content: center;
+}
+
+
+
+
+
+
+.description p{
+    padding-bottom: 200;
+    margin: 3em;
+    font-size:larger;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+ .images-and-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    gap: 28px;
+ }
+
+ .images-and-texts .upper{
+    flex:1;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    display-direction: column;
+    gap: 20px;
+
+ }
+
+ .images-and-texts .upper .unit img{
+    border-radius: 10%;
+    height: 180px;
+    width: 240px;
+    flex: 1;
+ }
+
+ .images-and-texts .upper .unit p{
+    font-size: 10px ;
+    margin:0px 8px;
+    flex: 1 1 0.25;
+ }
+
+
+
+ .images-and-texts .lower{
+    flex:1;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    display-direction: column;
+    gap: 20px;
+    text-align: center;
+
+ }
+
+ .images-and-texts .lower .unit img{
+    border-radius: 10%;
+    height: 180px;
+    width: 240px;
+    flex: 1;
+ }
+
+ .images-and-texts .lower .unit p{
+    font-size: 10px ;
+    margin:0px 8px;
+    flex: 1 1 0.25;
+ }
+
+
+ .quote-section{
+    align-items: center;
+    padding: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0px ;
+    height: 200px;
+    font-size: 45px;
+ }
+
+ .quote-section p{
+    margin-top: 20px;
+ }
+
+
+.end-part{
+    background-color: skyblue;
+    margin: 5% 26%; 
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px 20px 1px;
+    border-radius: 10px;
+    display: flex;
+    display-direction: row;
+    
+}
+
+.end-part button{
+    background-color: transparent;
+    border-color: black;
+    border-radius: 7px;
+    width: 98px;
+    height: 32px ;
+    padding:5px 20px 10px 20px;
+    margin: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+
+}
